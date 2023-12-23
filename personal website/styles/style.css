@@ -1,0 +1,25 @@
+body {
+    background-color: #e9e6e6;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #AEC6CF; /* Set the background color of the navbar */
+  }
+  
+  nav ul li {
+    display: inline; /* Display list items horizontally */
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #D3D3D3; /* Set the color of the navbar links */
+  }
+  
+  nav ul li a:hover {
+    background-color: #F4C2C2; /* Set the background color of the navbar links on hover */
+  }

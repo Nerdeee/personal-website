@@ -1,5 +1,10 @@
 body {
-    background-color: #e9e6e6;
+    /*background-color: #e9e6e6; */
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/pexels-scott-webb-3255761.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 nav ul {
@@ -10,7 +15,8 @@ nav ul {
   }
   
   nav ul li {
-    display: inline; /* Display list items horizontally */
+    flex: 1;
+    text-align: center; /* Display list items horizontally */
   }
   
   nav ul li a {
@@ -23,3 +29,27 @@ nav ul {
   nav ul li a:hover {
     background-color: #F4C2C2; /* Set the background color of the navbar links on hover */
   }
+
+  h1 {
+    color:#F4C2C2;
+  }
+
+  #flex-container {
+    display:flex;
+    flex-direction: row;
+  }
+
+  #indexLeft {
+    background-color: #D3D3D3;
+    border-radius: 10px;
+    height: 5%;
+    padding-left: 5px;
+    padding-right: 5px;
+    max-width: 30%;
+  }
+
+  #indexImg1 {
+    width: 400px;
+    height: 400px;
+  }
+  

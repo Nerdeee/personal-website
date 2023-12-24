@@ -12,10 +12,11 @@ nav ul {
     margin: 0;
     padding: 0;
     background-color: #AEC6CF; /* Set the background color of the navbar */
+    display: flex;
   }
   
   nav ul li {
-    flex: 1;
+    margin-right: 10px;
     text-align: center; /* Display list items horizontally */
   }
   
@@ -24,6 +25,7 @@ nav ul {
     padding: 10px 20px;
     text-decoration: none;
     color: #D3D3D3; /* Set the color of the navbar links */
+    flex-direction: column;
   }
   
   nav ul li a:hover {
@@ -32,11 +34,17 @@ nav ul {
 
   h1 {
     color:#F4C2C2;
+    padding: 20px;
   }
 
   #flex-container {
     display:flex;
+    gap:200px;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 100px;
   }
 
   #indexLeft {
@@ -52,4 +60,40 @@ nav ul {
     width: 400px;
     height: 400px;
   }
+  
+/* Coursework page styling */
+
+#courses {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #D3D3D3;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 32%;
+  margin-right: 32%;
+}
+
+#courses #title-list {
+  list-style: none; /* Remove bullets */
+  padding: 0; /* Remove default padding */
+}
+
+#courses #title-list li {
+  margin-bottom: 10px; /* Add spacing between titles */
+}
+
+#courses #title-list strong {
+  font-weight: bold; /* Make titles bold */
+}
+
+/* Style for the descriptions */
+#courses .description-list {
+  list-style: none; /* Remove bullets */
+  padding: 0; /* Remove default padding */
+}
+
+#courses .description-list li::before {
+  content: "•"; /* Add a dot before each description */
+  margin-right: 5px; /* Add spacing between dot and text */
+}
   

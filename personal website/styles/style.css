@@ -87,12 +87,74 @@ nav ul {
 }
 
 /* Style for the descriptions */
-#courses .description-list {
+#courses #projects .description-list {
   list-style: none; /* Remove bullets */
   padding: 0; /* Remove default padding */
 }
 
 #courses .description-list li::before {
+  content: "•"; /* Add a dot before each description */
+  margin-right: 5px; /* Add spacing between dot and text */
+}
+
+/* Social page styling */
+
+#socialContent {
+  position: relative;
+  top: 50px;
+  display: flex;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #D3D3D3;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 38%;
+  margin-right: 38%;
+}
+
+#github {
+  width: 30px;
+  height: 30px;
+  padding-top: 20px;
+}
+
+#linkedin {
+  width: 30px;
+  height: 30px;
+}
+
+/* Projects page styling */
+
+#projects {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #D3D3D3;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 32%;
+  margin-right: 32%;
+}
+
+#projects #title-list {
+  list-style: none; /* Remove bullets */
+  padding: 0; /* Remove default padding */
+}
+
+#projects #title-list li {
+  margin-bottom: 10px; /* Add spacing between titles */
+}
+
+#projects #title-list strong {
+  font-weight: bold; /* Make titles bold */
+}
+
+/* Style for the descriptions */
+#projects .description-list {
+  list-style: none; /* Remove bullets */
+  padding: 0; /* Remove default padding */
+}
+
+#projects .description-list li::before {
   content: "•"; /* Add a dot before each description */
   margin-right: 5px; /* Add spacing between dot and text */
 }
